@@ -5,8 +5,8 @@ services:
     container_name: lab-web2024
     image: postgres
     environment:
-      POSTGRES_USER: ${POSTGRES_USER:-fatec}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-fatec}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-Kaue1218}
       PGDATA: /data/postgres
     volumes:
        - postgres:/data/postgres
