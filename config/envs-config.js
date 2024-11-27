@@ -5,12 +5,11 @@ const dotenv = require('dotenv').config();
 // All configurations will extend these options
 // ============================================
 const all = {
-    basePath: '/cms/v1',
+    basePath: '/api/v1',
 
     env: process.env.ENVIRONMENT,
     host: process.env.HOST || 'localhost',
     port: process.env.PORT || 5000,
-
 
     database: {
         host: process.env.DATABASE_HOST,

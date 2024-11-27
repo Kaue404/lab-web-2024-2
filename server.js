@@ -1,5 +1,5 @@
-const Hapi = require("@hapi/hapi");
-const routes = require("./config/routes");
+const Hapi = require('@hapi/hapi');
+const routes = require('./config/routes');
 const config = require('./config/envs-config');
 
 

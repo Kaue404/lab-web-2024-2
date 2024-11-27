@@ -1,7 +1,7 @@
 const alunoController = require("./aluno-controller");
 const alunoSchema = require("./aluno-schema");
 
-const baseVersion = '/v1';
+const baseVersion = '/api/v1';
 
 const routes = [
    
@@ -15,7 +15,7 @@ const routes = [
     },
     {
         method: "GET",
-        path: `${baseVersion}/alunos{id}`,
+        path: `${baseVersion}/alunos/{id}`,
         options: {
             handler: alunoController.alunoPorId,
             validate: alunoSchema.consultaPorId
