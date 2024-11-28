@@ -28,10 +28,12 @@ const Produto = database.sequelize.define('Produto', {
       allowNull: false,
    },
    quantidadeEstoque: {
+      field: 'quantidade_estoque',
       type: Sequelize.INTEGER,
       allowNull: false,
    },
    codigoBarras: {
+      field: 'codigo_barras',
       type: Sequelize.STRING,
       allowNull: false,
    },
@@ -48,6 +50,7 @@ const Produto = database.sequelize.define('Produto', {
       allowNull: false,
    },
    dataCadastro: {
+      field: 'data_cadastro',
       type: Sequelize.DATE,
       allowNull: false,
    },

@@ -1,0 +1,16 @@
+CREATE TABLE produto (
+   id VARCHAR(50) PRIMARY KEY,
+   nome VARCHAR(255) NOT NULL,
+   descricao TEXT NOT NULL,
+   categoria VARCHAR(255) NOT NULL,
+   marca VARCHAR(255) NOT NULL,
+   preco FLOAT NOT NULL,
+   quantidade_estoque INT NOT NULL,
+   codigo_barras VARCHAR(50) NOT NULL,
+   dimensoes JSON NOT NULL,
+   peso JSON NOT NULL,
+   status VARCHAR(50) NOT NULL,
+   data_cadastro TIMESTAMP NOT NULL
+);
+
+SELECT * FROM produto

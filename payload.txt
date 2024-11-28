@@ -1,0 +1,21 @@
+{
+  "id": "12345",
+  "nome": "Produto Exemplo",
+  "descricao": "Este é um produto de exemplo para demonstração.",
+  "categoria": "Eletrônicos",
+  "marca": "Marca Exemplo",
+  "preco": 199.99,
+  "quantidade_estoque": 50,
+  "codigo_barras": "7891234567890",
+  "dimensoes": {
+    "altura": 10,
+    "largura": 20,
+    "profundidade": 5
+  },
+  "peso": {
+    "unidade": "kg",
+    "valor": 1.2
+  },
+  "status": "disponível",
+  "data_cadastro": "2024-11-27T23:48:36.000Z"
+}
